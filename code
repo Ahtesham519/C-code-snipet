@@ -1,0 +1,12 @@
+
+//average by for loop and use of the return function .
+
+float average(int length, int array[])
+{
+  int sum = 0;
+  for (int i = 0; i <length ; i++)
+  {
+    sum = sum + array[i];     
+    }
+    return sum/ length;
+}
